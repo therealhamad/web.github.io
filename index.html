@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mediaqueries.css"/>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Hamad Hussain</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Hamad Husssain</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">               
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+        </nav>
+        <section id="profile">
+            
+            <div class="section__text">
+                <p class="section__text__p1">Nice to meet you. I'm</p>
+                <h1 class="title">Hamad Hussain</h1>
+                <p class="section__text__p2">Tech Enthusiast</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2">
+                    Resume
+                    </button>
+                    <button class="btn btn-color-1">
+                    Contact
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="github.png"
+                    alt="Github"
+                    class="icon"
+                    onclick="location.href='https://www.github.com/therealhamad'"/>
+                    <img src="linkedin.png"
+                    alt="LinkedIn"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/hamad-hussain-292070149'"/>
+                </div>
+            </div>
+
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Oh, where are my manners? Let me tell you a few things</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                
+                <div class="about-details-container">
+                    <div class="about-containers">
+                      <div class="details-container">
+                        <img
+                          src="experience.png"
+                          alt="Experience icon"
+                          class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>Studied in 15+ schools <br />Adaptive, I guess:)</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                        src="education.png"
+                        alt="Education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.E(CSD) 2nd Year</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Pursuing a major in Computer Science and Design 
+                        at Dayananda Sagar College of Engineering, Bangalore.
+                        Passionate about web design and development, professional photo and video editing, and
+                        writing creative content. But always open to learn more.
+                    </p>
+                </div>
+            </div>
+        </div>        
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Excited to share to you about my</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Web Design and Development</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>HTML</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>CSS</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />                    
+                      <div>
+                        <h3>JavaScript</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Figma</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>                    
+                  </div>
+                </div>
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Other Skills</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Content Writing</h3>
+                        <p>Experienced</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Photoshop</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Professional Video Editing</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Python Programming</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">In case you want to get in touch with me,</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:hamadkkr3@gmail.com">hamadkkr3@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/hamad-hussain-292070149">LinkedIn</a></p>
+              </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Copyright &#169; 2023 Hamad. All Rights Reserved.</p>
+          </footer>
+        <script src="script.js"></script>
+        <script>
+            const cursor=document.querySelector('.cursor');
+            document.addEventListener('mousemove',(e)=>{
+                cursor.style.left=e.pageX+'px';
+                cursor.style.top=e.pageY+'px';
+            })
+        </script>
+    </body>
+</html>
